@@ -1,11 +1,10 @@
-# npx yaml-lint .github/workflows/pipeline.yaml
 name: CI Pipeline
 
 on:
   push:
     branches: [ main ]
 
-jobs:
+jobs:               # npx yaml-lint .github/workflows/pipeline.yaml
   build:
     runs-on: ubuntu-latest
   
