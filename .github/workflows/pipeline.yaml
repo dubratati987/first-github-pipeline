@@ -1,3 +1,4 @@
+# npx yaml-lint .github/workflows/pipeline.yaml
 name: CI Pipeline
 
 on:

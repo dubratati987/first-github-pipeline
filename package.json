@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "run": "node index.js",
-    "test": "node test.js"
+    "test": "node test.js",
+    "yaml-lint": "npx yaml-lint .github/workflows/pipeline.yaml"
   },
   "keywords": [],
   "author": "",
